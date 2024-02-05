@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: kafka-producer
+  kafka:
+    bootstrap-servers: localhost:9092
+  datasource:
+    url: jdbc:postgresql://localhost:5432/KafkaTestDB
+    username: postgres
+    password: admin759
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8081
+    
